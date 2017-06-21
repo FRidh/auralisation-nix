@@ -23,8 +23,8 @@ in rec {
     acoustics = super.callPackage (fetchTarballFromGitHub {
       owner = "python-acoustics";
       repo = "python-acoustics";
-      rev = "4e875bf621a4fa0c467d43ee10d37cb1d3276c89";
-      sha256 = "0pvyhb4b7hfpgy211aggd4r8sybz0gkmdhcnzl5cx9lfx17jihvb";
+      rev = "728d57f660918809153f8a779064cc8fecc2702c";
+      sha256 = "0ascpadj89j5ilk99pw03ff121q6qm4m3sps1svbwbp1gmwr1pvq";
     }){ };
 
     auraliser = super.callPackage (fetchTarballFromGitHub {
