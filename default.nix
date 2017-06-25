@@ -30,8 +30,8 @@ in rec {
     auraliser = super.callPackage (fetchTarballFromGitHub {
       owner = "FRidh";
       repo = "auraliser";
-      rev = "747dca98548d927506129846c63e52c7ff38bc11";
-      sha256 = "0h7ca4ic1ldd1s0knhpjsvy6r55lq72yvw8bncgs90ndxy2bb7sv";
+      rev = "2ac6cd1588df470514db0aeecfa849ad719f78d7";
+      sha256 = "1k8y2av77slyw6i9d2lrn6d48jkd6p0xnvcsmrgrhn5jrq9l5vdf";
     }) { };
 
     geometry = super.callPackage (fetchTarballFromGitHub {
